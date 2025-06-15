@@ -98,7 +98,7 @@ if file is not None:
     
     if data is not None:
         st.markdown("Data Visualization Options:")
-        st.subheader("Gnerate Visualization")
+        st.subheader("Generate Visualization")
         col=data.columns.tolist()
         col1 = st.selectbox("Select X-axis",col)
         col2 = st.selectbox("Select Y-axis (optional)", [None] + col)
