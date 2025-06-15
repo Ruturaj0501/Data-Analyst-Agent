@@ -4,6 +4,5 @@ matplotlib
 pytesseract
 PyPDF2
 python-docx
-PIL
 google-generativeai
 dotenv
